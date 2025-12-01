@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee2f4cd9-ed78-4a72-9c54-a575bce89cd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/03 Functions/ParameterTypeSafety.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03 Functions/ReturnTypeSafety.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04 TS Objects/ObjectsBadBehaviour.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04 TS Objects/Readonly Optional.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04 TS Objects/TypeAlias.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 TS Array/TsArray.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 TS Union Types/TsUnion.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07 TS Tuples/TsTuples.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08 TS Enum/TsEnum.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09 TS Interface/TsInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10 TS Setup TS for Real Projects/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10 TS Setup TS for Real Projects/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10 TS Setup TS for Real Projects/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02 Datatypes/datatypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02 TS Datatypes/datatypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 Functions/ParameterTypeSafety.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03 TS Functions/ParameterTypeSafety.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 Functions/ReturnTypeSafety.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03 TS Functions/ReturnTypeSafety.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -36,7 +51,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "Node.js.Array.ts.executor": "Run",
     "Node.js.ParameterTypeSafety.ts.executor": "Run",
+    "Node.js.TsEnum.ts.executor": "Run",
+    "Node.js.TsInterface.ts.executor": "Run",
+    "Node.js.Tuples.ts.executor": "Run",
+    "Node.js.TypeAlias.ts.executor": "Run",
+    "Node.js.Union.ts.executor": "Run",
     "Node.js.datatypes.ts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -48,6 +71,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -56,6 +80,16 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Coding\TypeScript-by-FreeCodeCamp.ORG\02 Datatypes" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TypeScript-by-FreeCodeCamp.ORG/10 TS Setup TS for Real Projects/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -76,6 +110,10 @@
       <workItem from="1764431850378" duration="7000" />
       <workItem from="1764431900025" duration="123000" />
       <workItem from="1764432042203" duration="3801000" />
+      <workItem from="1764477628926" duration="6062000" />
+      <workItem from="1764483967886" duration="14000" />
+      <workItem from="1764485941172" duration="3795000" />
+      <workItem from="1764572867572" duration="3953000" />
     </task>
     <servers />
   </component>
@@ -84,6 +122,7 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/01 Introduction/intro.js" />
+        <option value="$PROJECT_DIR$/10 TS Setup TS for Real Projects/src/index.js" />
       </list>
     </option>
   </component>
