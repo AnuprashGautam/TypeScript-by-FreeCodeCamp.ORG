@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee2f4cd9-ed78-4a72-9c54-a575bce89cd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/04 TS Objects/ObjectsBadBehaviour.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04 TS Objects/Readonly Optional.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04 TS Objects/TypeAlias.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05 TS Array/TsArray.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06 TS Union Types/TsUnion.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07 TS Tuples/TsTuples.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08 TS Enum/TsEnum.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09 TS Interface/TsInterface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10 TS Setup TS for Real Projects/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10 TS Setup TS for Real Projects/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10 TS Setup TS for Real Projects/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 Datatypes/datatypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02 TS Datatypes/datatypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 Functions/ParameterTypeSafety.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03 TS Functions/ParameterTypeSafety.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 Functions/ReturnTypeSafety.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03 TS Functions/ReturnTypeSafety.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 TS Protected/TsProtected.ts" beforeDir="false" afterPath="$PROJECT_DIR$/13 TS Protected/TsProtected.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14 TS Why Interfaces/TsWhyInterfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/14 TS Why Interfaces/TsWhyInterfaces.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15 TS Abstract Classes/TsAbstractClasses.ts" beforeDir="false" afterPath="$PROJECT_DIR$/15 TS Abstract Classes/TsAbstractClasses.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16 TS Generics/TsGenerics.ts" beforeDir="false" afterPath="$PROJECT_DIR$/16 TS Generics/TsGenerics.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17 TS Generics Classes/TsGenericsClasses.ts" beforeDir="false" afterPath="$PROJECT_DIR$/17 TS Generics Classes/TsGenericsClasses.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18 TS Type Narrowing/TsTypeNarrowing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/18 TS Type Narrowing/TsTypeNarrowing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18 TS Type Narrowing/Type Narrowing Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/18 TS Type Narrowing/Type Narrowing Note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19 TS Discriminated Union and Exhaustive Checking with never/Explanantion.md" beforeDir="false" afterPath="$PROJECT_DIR$/19 TS Discriminated Union and Exhaustive Checking with never/Explanantion.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19 TS Discriminated Union and Exhaustive Checking with never/TsTypeCheckWithSwitchAndNever.ts" beforeDir="false" afterPath="$PROJECT_DIR$/19 TS Discriminated Union and Exhaustive Checking with never/TsTypeCheckWithSwitchAndNever.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +50,15 @@
     "JavaScript Debug.index.html.executor": "Run",
     "Node.js.Array.ts.executor": "Run",
     "Node.js.ParameterTypeSafety.ts.executor": "Run",
+    "Node.js.TsAbstractClasses.ts.executor": "Run",
     "Node.js.TsEnum.ts.executor": "Run",
+    "Node.js.TsGenerics.ts.executor": "Run",
+    "Node.js.TsGenericsClasses.ts.executor": "Run",
+    "Node.js.TsGettersAndSetters.ts.executor": "Run",
     "Node.js.TsInterface.ts.executor": "Run",
+    "Node.js.TsProtected.ts.executor": "Run",
+    "Node.js.TsTypeCheckWithSwitchAndNever.ts.executor": "Run",
+    "Node.js.TsTypeNarrowing.ts.executor": "Run",
     "Node.js.Tuples.ts.executor": "Run",
     "Node.js.TypeAlias.ts.executor": "Run",
     "Node.js.Union.ts.executor": "Run",
@@ -113,7 +115,9 @@
       <workItem from="1764477628926" duration="6062000" />
       <workItem from="1764483967886" duration="14000" />
       <workItem from="1764485941172" duration="3795000" />
-      <workItem from="1764572867572" duration="3953000" />
+      <workItem from="1764572867572" duration="7105000" />
+      <workItem from="1764589526370" duration="4997000" />
+      <workItem from="1764659182560" duration="9064000" />
     </task>
     <servers />
   </component>
@@ -123,7 +127,25 @@
       <list>
         <option value="$PROJECT_DIR$/01 Introduction/intro.js" />
         <option value="$PROJECT_DIR$/10 TS Setup TS for Real Projects/src/index.js" />
+        <option value="$PROJECT_DIR$/11 TS Classes/TsClassses.js" />
       </list>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/12 TS Getters and Setters/TsGettersAndSetters.ts</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/17 TS Generics Classes/TsGenericsClasses.ts</url>
+          <line>67</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
